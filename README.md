@@ -37,6 +37,15 @@ Develop SQL-based analytics to deliver detailed insights into:
 2. Navigate to the project folder and run:
    ```bash
    docker-compose up -d
+ 
+  Database Connection Details
+  To connect to the database (via VS Code SQLTools, DBeaver, or pgAdmin), use the following credentials from the docker-compose.yml file:
+
+**Host:** localhost; 
+**Port:** 5432; 
+**User:** admin; 
+**Password:** root; 
+**Database:** DataWarehouse; 
 
 ## License
 This project is licensed under the MIT License. You are free to use, modify, and share this project with proper attribution.
