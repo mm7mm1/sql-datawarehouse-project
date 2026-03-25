@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+  db_warehouse:          # Назва сервісу
+    image: postgres:15   # Яку базу беремо (Postgres 15)
+    container_name: my_warehouse_container # Назва самого контейнера
+    environment:
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: root
+      POSTGRES_DB: DataWarehouse
+    ports:
+      - "5432:5432"      # Прокидаємо порт на твій Mac
