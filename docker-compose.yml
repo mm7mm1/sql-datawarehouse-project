@@ -1,11 +1,20 @@
 version: '3.8'
+
 services:
-  db_warehouse:          # Назва сервісу
-    image: postgres:15   # Яку базу беремо (Postgres 15)
-    container_name: my_warehouse_container # Назва самого контейнера
+  db_warehouse:              # Service name
+    image: postgres:15       # Using PostgreSQL version 15
+    container_name: my_warehouse_container # Custom name for the container
     environment:
       POSTGRES_USER: admin
       POSTGRES_PASSWORD: root
       POSTGRES_DB: DataWarehouse
     ports:
-      - "5432:5432"      # Прокидаємо порт на твій Mac
+      - "5432:5432"          # Mapping local port 5432 to container port 5432
+    
+    # VOLUME MAPPING
+    # This connects your local folder to the container's folder
+    volumes:
+      # Format: [local_path]:[container_path]
+      # ./datasets refers to the local folder containing your CSV files
+      # :/datasets is the virtual directory accessible by PostgreSQL
+      - ./datasets:/datasets
