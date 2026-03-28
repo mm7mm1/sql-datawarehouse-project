@@ -12,7 +12,7 @@ This project involves:
 3. **Data Modeling**: Developing fact and dimension tables optimized for analytical queries.
 4. **Analytics & Reporting**: Creating SQL-based reports and dashboards for actionable insights.
 
-🎯 This repository is an excellent resource for professionals and students looking to showcase expertise in:
+This repository is an excellent resource for professionals and students looking to showcase expertise in:
 
 * SQL Development
 * Data Architect
@@ -48,7 +48,7 @@ Develop SQL-based analytics to deliver detailed insights into:
   
 ## Data Architecture
 The data architecture diagram for this project follow The Medallion Architecture Bronze, Silver and Gold layers:
-![Data Architecture](/Users/ana/Documents/Data_WareHouse_Project/docs/data_integration.png)
+![Data Architecture](./docs/data_integration.png)
 
 ## Getting Started
 
