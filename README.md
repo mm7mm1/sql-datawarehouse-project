@@ -76,4 +76,4 @@ This project is licensed under the MIT License. You are free to use, modify, and
 
 ## About me 
 Hey, my name is Anastasiia, I am a Junior Data Engineer wanting to achieve high results.
-
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/anastasiia-kukhar-1192b13a0/)
